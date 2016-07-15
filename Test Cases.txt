@@ -1,3 +1,8 @@
+g++ -std=c++0x -o parse parseCSV.cpp postfix.cpp
+Run the executable: ./parse.exe input.csv
+
+This should generate the output.csv file with evaluated expression results
+
 i/p - error in first cell
 -----
 A1 B2 + , C2 D2 - ,   1  ,  1 ,  1
